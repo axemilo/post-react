@@ -7,7 +7,6 @@ import { menu } from './menu'
 
 import { useSelector, useDispatch } from 'react-redux'
 import { postsAction } from '../../store/reducers'
-import { useEffect } from 'react'
 
 export const Header = () => {
   const dispatch = useDispatch()

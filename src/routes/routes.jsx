@@ -23,7 +23,7 @@ const routes = [
     element: <h1>Typography</h1>,
   },
   {
-    path: '/*',
+    path: '/',
     element: <Home />,
   },
   {
@@ -31,7 +31,7 @@ const routes = [
     element: <Login />,
   },
   {
-    path: '*',
+    path: '/*',
     element: <Error />,
   },
 ]

@@ -21,7 +21,7 @@ export const Footer = () => {
                   <a
                     className={Style[item.class]}
                     href={item.path}
-                    target="_blank"
+                    target="blank"
                   >
                     {item.title}
                   </a>

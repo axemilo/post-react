@@ -2,16 +2,16 @@ import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 import clockIcon from '../../assets/img/post-clock_item.svg'
-import { Pagination } from './Pagination'
 import Container from '../Container'
 import Style from './Posts.module.scss'
 import { postsAction } from '../../store/reducers'
 import Explore from '../Explore'
-import { Routes, Route, Link, Switch } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom'
 export const Posts = () => {
   const POST_NUM = 20
 
   const dispatch = useDispatch()
+
   const allPosts = useSelector((state) => state.posts.posts)
   const posts = allPosts.slice(0, POST_NUM)
   useEffect(() => {
@@ -53,7 +53,11 @@ export const Posts = () => {
           <div className={Style.pagination}>
             <button className={Style['page-btn']}>{'<'}</button>
             <ul>
-              <Pagination />
+              <li className={Style['page-num']}>1</li>
+              <li className={Style['page-num']}>2</li>
+              <li className={Style['page-num']}>3</li>
+              <li className={Style['page-num']}>4</li>
+              <li className={Style['page-num']}>5</li>
             </ul>
             <button className={Style['page-btn']}>{'>'}</button>
           </div>
