@@ -1,0 +1,65 @@
+.footer {
+  background-color: #000;
+  padding: 45px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.background {
+  position: absolute;
+  z-index: 2;
+  top: -12px;
+  left: 120px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  font-family: 'Noto Sans';
+  font-weight: 400;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-item {
+  margin-bottom: 14px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px;
+}
+
+.app-item {
+  margin-bottom: 14px;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-item {
+  margin-bottom: 13px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.line {
+  border-bottom: 1px solid #fff;
+}

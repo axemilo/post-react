@@ -1,0 +1,48 @@
+.navbar {
+  font-size: 16px;
+  line-height: 21px;
+  color: #9a9a9a;
+}
+
+.item {
+  margin-right: 30px;
+}
+
+.image {
+  cursor: pointer;
+}
+
+.header-container {
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 81px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  padding: 12px 0;
+  padding-left: 14px;
+  width: 216px;
+  border-radius: 3px;
+  border: none;
+  background-color: #f4f4f4;
+  outline: none;
+}
+
+.input-icon {
+  padding: 14px 13px;
+}
+
+.input-btn {
+  height: 100%;
+  border: none;
+  border-radius: 3px;
+  background-color: #ffba9d;
+  cursor: pointer;
+}

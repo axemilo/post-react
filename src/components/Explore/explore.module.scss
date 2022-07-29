@@ -1,0 +1,38 @@
+.container {
+  width: 328px;
+  margin-right: 100px;
+  color: #474747;
+}
+
+.title {
+  margin-bottom: 36px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.text {
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.link {
+  margin-bottom: 50px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.link-span {
+  padding: 6px;
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.item {
+  margin-right: 23px;
+}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.text {
+  color: #474747;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  width: 607px;
+  margin-bottom: 40px;
+}
+
+.link {
+  color: #474747;
+}
