@@ -1,4 +1,3 @@
-import { useSelector } from 'react-redux'
 import { useRoutes } from 'react-router-dom'
 import { Error, Home, Login } from '../pages'
 
@@ -24,7 +23,7 @@ const routes = [
     element: <h1>Typography</h1>,
   },
   {
-    path: '/',
+    path: '/*',
     element: <Home />,
   },
   {
